@@ -70,7 +70,7 @@ body {
 
 #display {
   margin: 0 10px;
-  height: 150px;
+  height: 70px;
   width: auto;
   max-width: 270px;
   display: flex;
@@ -134,6 +134,11 @@ button#equal {
   color: #f967f3;
 }
 
+.calculator button.percentage {
+  background-color: #ffd0fb;
+  color: #f967f3;
+}
+
 .calculator button.btn-equal {
   background-color: #adf9e7;
   color: #000;
@@ -165,6 +170,11 @@ button#equal {
 }
 
 .calculator.dark button.decimal {
+  background-color: #2e1f39;
+  color: #aa00a4;
+}
+
+.calculator.dark button.percentage {
   background-color: #2e1f39;
   color: #aa00a4;
 }
